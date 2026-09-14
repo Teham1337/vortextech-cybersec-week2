@@ -11,6 +11,12 @@ Flags common passwords like 123456 or password as Very Weak.
 
 Displays a rating (Weak, Medium, Strong) along with feedback.
 
+## Logic
+The script evaluates passwords using three main steps:
+1. **Blacklist Check:** Compares the input against a list of common passwords (e.g., `123456`, `password`). If matched, it immediately flags it as **Very Weak**.
+2. **Criteria Validation:** Checks for minimum length (8+ characters) and character variety (uppercase, lowercase, digits, special characters) using Python's `any()` function.
+3. **Rating & Feedback:** Calculates a score based on passed criteria to assign a rating (**Weak**, **Medium**, or **Strong**) and appends specific feedback for any missing requirements.
+
 ## How To Run It
 ---
 Open your terminal or command prompt in the project directory and then run the script using Python 3.
