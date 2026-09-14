@@ -18,11 +18,9 @@ The script evaluates passwords using three main steps:
 3. **Rating & Feedback:** Calculates a score based on passed criteria to assign a rating (**Weak**, **Medium**, or **Strong**) and appends specific feedback for any missing requirements.
 
 ## How To Run It
----
 Open your terminal or command prompt in the project directory and then run the script using Python 3.
 
 ## Example Output
----
 Password: '123456'
 Strength: Very Weak
 Feedback: This is an extremely common password. Choose something unique.
@@ -51,5 +49,4 @@ Description: Microsoft Directory Services (SMB - Server Message Block).
 Meaning: Used for network file sharing, printer sharing, and remote administrative functions across local networks.
 
 ## Reflection On Real-World Analysis
----
 Exposed Local Services: Ports 135 and 445 are common targets on Windows environments. Unpatched or improperly secured SMB services (Port 445) are historically vulnerable to ransomware (like WannaCry) and lateral movement attacks across internal networks.
