@@ -32,7 +32,6 @@ Strength: Strong
 Feedback: Perfect password structure!
 
 ## Reflection On Real-World Risks
----
 Weak or predictable passwords allow attackers to gain unauthorized access via brute-force attacks or credential stuffing, easily bypassing authentication systems.
 
 ---
